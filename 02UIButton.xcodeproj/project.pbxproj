@@ -15,6 +15,8 @@
 		7556FDCF1F59AAD400ABC073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7556FDCD1F59AAD400ABC073 /* LaunchScreen.storyboard */; };
 		7556FDDA1F59AAD400ABC073 /* _2UIButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7556FDD91F59AAD400ABC073 /* _2UIButtonTests.m */; };
 		7556FDE51F59AAD400ABC073 /* _2UIButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7556FDE41F59AAD400ABC073 /* _2UIButtonUITests.m */; };
+		7556FDF41F59B72C00ABC073 /* publish_photo_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7556FDF21F59B72C00ABC073 /* publish_photo_icon.png */; };
+		7556FDF51F59B72C00ABC073 /* publish_rijian_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7556FDF31F59B72C00ABC073 /* publish_rijian_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		7556FDE01F59AAD400ABC073 /* 02UIButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 02UIButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7556FDE41F59AAD400ABC073 /* _2UIButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2UIButtonUITests.m; sourceTree = "<group>"; };
 		7556FDE61F59AAD400ABC073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7556FDF21F59B72C00ABC073 /* publish_photo_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = publish_photo_icon.png; path = "../../../WorkSpace/Meilishuo4Android/sdk/common/src/main/res/drawable-xhdpi/publish_photo_icon.png"; sourceTree = "<group>"; };
+		7556FDF31F59B72C00ABC073 /* publish_rijian_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = publish_rijian_icon.png; path = "../../../WorkSpace/Meilishuo4Android/sdk/common/src/main/res/drawable-xhdpi/publish_rijian_icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		7556FDB31F59AAD400ABC073 = {
 			isa = PBXGroup;
 			children = (
+				7556FDF21F59B72C00ABC073 /* publish_photo_icon.png */,
+				7556FDF31F59B72C00ABC073 /* publish_rijian_icon.png */,
 				7556FDBE1F59AAD400ABC073 /* 02UIButton */,
 				7556FDD81F59AAD400ABC073 /* 02UIButtonTests */,
 				7556FDE31F59AAD400ABC073 /* 02UIButtonUITests */,
@@ -243,7 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7556FDF51F59B72C00ABC073 /* publish_rijian_icon.png in Resources */,
 				7556FDCF1F59AAD400ABC073 /* LaunchScreen.storyboard in Resources */,
+				7556FDF41F59B72C00ABC073 /* publish_photo_icon.png in Resources */,
 				7556FDCC1F59AAD400ABC073 /* Assets.xcassets in Resources */,
 				7556FDCA1F59AAD400ABC073 /* Main.storyboard in Resources */,
 			);
